@@ -1,7 +1,7 @@
 # Flickr8k-Image-Captioning
 
 ## creating an image captioning Deep learning model trained on Flickr8k dataset 
-## for sample tuns and calculated accuracies [**Open Kaggle NoteBook**](https://www.kaggle.com/code/karimfathy054/image-captioning-models-cnn-lstm)
+## for sample tuns and calculated loss and accuracies refer to [**Kaggle NoteBook**](https://www.kaggle.com/code/karimfathy054/image-captioning-models-cnn-lstm)
 
 ## Model Architecture:
 experimented with 2 concepts for the architecture which are (injection model,Merge model) that are present in **[What is the( Role of Recurrent Neural Networks (RNNs) in an Image Caption Generator?](https://aclanthology.org/W17-3506) (Tanti et al., INLG 2017)** and **[Where to put the Image in an Image Caption Generator](https://arxiv.org/abs/1703.09137)
