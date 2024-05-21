@@ -4,9 +4,13 @@
 ## for sample tuns and calculated loss and accuracies refer to [**Kaggle NoteBook**](https://www.kaggle.com/code/karimfathy054/image-captioning-models-cnn-lstm)
 
 ## Model Architecture:
-experimented with 2 concepts for the architecture which are (injection model,Merge model) that are present in **[What is the( Role of Recurrent Neural Networks (RNNs) in an Image Caption Generator?](https://aclanthology.org/W17-3506) (Tanti et al., INLG 2017)** and **[Where to put the Image in an Image Caption Generator](https://arxiv.org/abs/1703.09137)
-Marc Tanti (1), Albert Gatt (1), Kenneth P. Camilleri (1) ((1) University of Malta)**
+experimented with 3 concepts for the architecture which are (injection model,Merge model) that are present in 
+1. **[Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
+Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan**
+2. **[What is the( Role of Recurrent Neural Networks (RNNs) in an Image Caption Generator?](https://aclanthology.org/W17-3506) (Tanti et al., INLG 2017)**
+3. **[Where to put the Image in an Image Caption Generator](https://arxiv.org/abs/1703.09137) Marc Tanti, Albert Gatt, Kenneth P. Camilleri (University of Malta)**
 
+ 
 ### Injection model:
 
 a CNN is used to extract image features out of the image as a vector that is used to (initiate Hidden states for RNN layer/use it as start of the sequence for RNN layer/concatenate it with word embeddings used in RNN sequence)
